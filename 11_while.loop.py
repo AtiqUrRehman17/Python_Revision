@@ -16,13 +16,13 @@
 
 # here what we done in the above code is
 # first we take any number from the user the we intialize the value of i 1 
-# then we perfrom the while loop in which the condition is if the i < 11 
-# then print the number and also multiple the number with the current value of i which is 1 and do it
-# till the condition is wrong and th
-# e condition will wrong where the i value is greater then 11 
-# and at the last we are adding one value to the i after each itration
+# # then we perfrom the while loop in which the condition is if the i < 11 
+# # then print the number and also multiple the number with the current value of i which is 1 and do it
+# # till the condition is wrong and th
+# # e condition will wrong where the i value is greater then 11 
+# # and at the last we are adding one value to the i after each itration
 
-# Get input from the user
+# # Get input from the user
 # N = int(input("Enter a number: "))
 
 # # Initialize variables

@@ -43,21 +43,21 @@
 
 
 # # HERE IS THE RIGHT CODE ::::::;;;;;:::::::::::::::::
-# import random
-# jackpot = random.randint(1,100)
+import random
+jackpot = random.randint(1,100)
 
-# guess = int(input('Guess Kar : '))
-# counter = 1
+guess = int(input('Guess Kar : '))
+counter = 1
 
-# while guess != jackpot:
-#     if guess < jackpot:
-#         print('Guess Higher')
-#     else:
-#         print('Guess Lower')
-#     guess = int(input('Guess Kar : '))
-#     counter+=1
-# print('Sahi Jawaab')
-# print('You Took',counter,'attempts')
+while guess != jackpot:
+    if guess < jackpot:
+        print('Guess Higher')
+    else:
+        print('Guess Lower')
+    guess = int(input('Guess Kar : '))
+    counter+=1
+print('Sahi Jawaab')
+print('You Took',counter,'attempts')
 
 # NOW it works fine but we have to add one more thing that is to add how many time the user take the attempts
 # now for that we add one more varibale that first is 1 and do it increment after each the user give the guess
